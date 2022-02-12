@@ -1,0 +1,126 @@
+
+
+body {
+  /* background-color: rgb(35, 39, 50); */
+  color: rgb(221, 232, 214);
+  font-family: optima, sans-serif;
+  margin: 0;
+}
+
+.landing{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../images/mountains.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.intro {
+  vertical-align: middle;
+  text-align: center;
+  font-family: optima, sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: rgba(47, 52, 68, 0.336);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.486);
+}
+
+.intro h1 {
+  text-align: center;
+  font-size: 100px;
+  font-family: lato, sans-serif;
+}
+
+.intro h2 {
+  text-align: center;
+  font-size: x-large;
+  font-family: optima, sans-serif;
+}
+
+.bio {
+  margin-top: 15%;
+  color: rgb(47, 47, 47);
+  width: 400px;
+}
+
+.secondPage {
+  background-color: rgb(97, 145, 121);
+  min-height: 100vh;
+}
+
+.secondPage h1 {
+  margin-top: 60px;
+  margin: 0 auto 20px;
+  width: 600px;
+}
+
+.secondPage p {
+  margin: 0 auto 20px;
+  width: 600px;
+}
+
+.thirdPage {
+  float: inline-start;
+  background-color: rgb(35, 39, 50);
+  height: 100vh;
+  margin-top: -20px;
+}
+
+.thirdPage h1 {
+  margin: 0 auto 20px;
+  width: 600px;
+}
+
+.thirdPage p {
+  margin: 0 auto 20px;
+  width: 600px;
+}
+
+.fourthPage {
+  background-color: rgb(88, 131, 158);
+  height: 100vh;
+}
+
+.fourthPage h1 {
+  margin: 0 auto 20px;
+  width: 600px;
+}
+
+.fourthPage p {
+  margin: 0 auto 20px;
+  width: 600px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: rgb(47, 52, 68);
+  position: sticky;
+  top: 0;
+  width: 100%;  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(35, 39, 50);
+}
+.active {
+  background-color: rgb(35, 39, 50);
+}
