@@ -58,16 +58,26 @@ body {
   width: 600px;
 }
 
-.projects p {
+#projectsIntro {
   margin: 0 auto 20px;
   width: 600px;
+}
+
+.card {
+  margin: 0 auto 20px;
+  background-color: rgb(35, 39, 50);
+}
+
+.card img {
+  height: 175px;
+  object-fit: cover;
 }
 
 .social {
   float: inline-start;
   background-color: rgb(35, 39, 50);
   height: 100vh;
-  margin-top: -20px;
+  /* margin-top: -20px; */
 }
 
 .social h1 {
@@ -100,7 +110,6 @@ body {
 
 .contact {
   background-color: rgb(88, 131, 158);
-  height: 100vh;
 }
 
 .contact h1 {
@@ -113,6 +122,11 @@ body {
   width: 600px;
 }
 
+.contact h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -122,6 +136,7 @@ ul {
   position: sticky;
   top: 0;
   width: 100%;  
+  z-index: 1;
 }
 
 li {
